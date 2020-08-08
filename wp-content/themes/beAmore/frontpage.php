@@ -7,7 +7,7 @@ get_header(); ?>
 
 <section class="main_blok" style="background-image: url('<?= get_the_post_thumbnail_url($post->ID); ?>');">
 	<div class="container pt-130">
-		<div class="row flex-wrap pb-80">
+		<div class="row pb-80">
 			<div class="col-md-6">
 				<div class="main_blok_day w-100 mb-3 font-size-30 d-flex justify-content-center mx-auto text-center">
 					12 ноября 2020
