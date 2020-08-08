@@ -14,31 +14,31 @@
 	<body <?php body_class(); ?>>
 		<div class="main_container">
 		    <header id="header"class="container-fluid">
-			<nav class="navbar navbar-expand-lg justify-content-between p-0 d-flex flex-wrap height-70">
-				<div class="align-items-center justify-content-between d-flex flex-wrap">
-					<div class="h-100 d-flex flex-wrap align-items-center justify-content-center">
-                        <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="logo" /></a>
+				<nav class="navbar navbar-expand-lg justify-content-between p-0 d-flex flex-wrap height-70">
+					<div class="align-items-center justify-content-between d-flex flex-wrap">
+						<div class="h-100 d-flex flex-wrap align-items-center justify-content-center">
+							<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="logo" /></a>
+						</div>
 					</div>
-				</div>
-				<div class="navbar-toggler p-0 h-100 d-lg-none d-flex flex-column align-items-center justify-content-center" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<div class="bar1"></div>
-					<div class="bar2"></div>
-					<div class="bar3"></div>
-				</div>
-				<div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
-					<div class="navbar-nav w-100 align-items-center">
-						<?php
-							wp_nav_menu(array(
-							'theme_location' => 'main-menu-2',
-							'container'      => 'ul',
-							'menu_class' => 'top_menu_2 m-0 d-flex justify-content-center align-items-center w-100 flex-wrap',
-							));
-						?>
-						<hr class="menu-line" />
-						<button class="my-4 registr_btn">РЕГИСТРАЦИЯ ПОСТАВЩИКОВ</button>
+					<div class="navbar-toggler p-0 h-100 d-lg-none d-flex flex-column align-items-center justify-content-center" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+						<div class="bar1"></div>
+						<div class="bar2"></div>
+						<div class="bar3"></div>
 					</div>
-				</div>
-			</nav>
-		</header>
+					<div class="collapse navbar-collapse justify-content-between" id="navbarNavAltMarkup">
+						<div class="navbar-nav w-100 align-items-center">
+							<?php
+								wp_nav_menu(array(
+								'theme_location' => 'main-menu-2',
+								'container'      => 'ul',
+								'menu_class' => 'top_menu_2 m-0 d-flex justify-content-center align-items-center w-100 flex-wrap',
+								));
+							?>
+							<hr class="menu-line" />
+							<button class="my-4 registr_btn">РЕГИСТРАЦИЯ ПОСТАВЩИКОВ</button>
+						</div>
+					</div>
+				</nav>
+			</header>
         </div>
 		
