@@ -14,9 +14,9 @@
 	<body <?php body_class(); ?>>
 		<div class="main_container">
 		    <header id="header"class="container-fluid">
-				<nav class="navbar navbar-expand-lg justify-content-between p-0 d-flex flex-wrap height-70">
-					<div class="align-items-center justify-content-between d-flex flex-wrap">
-						<div class="h-100 d-flex flex-wrap align-items-center justify-content-center">
+				<nav class="navbar navbar-expand-lg justify-content-between p-0 d-flex height-70">
+					<div class="align-items-center justify-content-between d-flex">
+						<div class="h-100 d-flex align-items-center justify-content-center">
 							<a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/logo.png" alt="logo" /></a>
 						</div>
 					</div>
