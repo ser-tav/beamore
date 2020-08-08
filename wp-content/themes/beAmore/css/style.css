@@ -435,7 +435,6 @@ hr.menu-line {
     z-index: 9;
 
 }
-
 @media (min-width: 576px){
     .modal-dialog {
          max-width: 650px;
