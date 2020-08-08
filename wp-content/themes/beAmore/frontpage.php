@@ -259,7 +259,7 @@ get_header(); ?>
         </div>
     </section>
 
-    <section class="items position-relative"
+    <section class="items position-relative" 
              style="background-image: url('<?php bloginfo('template_directory'); ?>/images/Rectangle(1).png')">
         <div class="items_bg">
             <div class="container d-flex flex-wrap text-center h-100 justify-content-center align-items-center">
