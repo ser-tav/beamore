@@ -31,7 +31,7 @@
 								wp_nav_menu(array(
 								'theme_location' => 'main-menu-2',
 								'container'      => 'ul',
-								'menu_class' => 'top_menu_2 m-0 d-flex justify-content-center align-items-center w-100 flex-wrap',
+								'menu_class' => 'top_menu_2 m-0 p-0 d-flex justify-content-center align-items-center w-100 flex-wrap',
 								));
 							?>
 							<hr class="menu-line" />

@@ -258,14 +258,13 @@ get_header(); ?>
 
 <section class="items position-relative" 
 style="background-image: url('<?php bloginfo('template_directory'); ?>/images/Rectangle(1).png')">
-	<div class="items_bg">
 		<div class="container d-flex flex-wrap text-center h-100 justify-content-center align-items-center">
 			<div class="row align-items-start">
 				<?php while (has_sub_field('steps_date')):
 					$img = get_sub_field('img');
 					$title = get_sub_field('title');
 				$text = get_sub_field('text'); ?>
-				<div class="pt-3 max-w-20">
+				<div class="pt-3 col">
 					<div>
 						<img src="<?= $img; ?>" alt="">
 					</div>
@@ -279,7 +278,6 @@ style="background-image: url('<?php bloginfo('template_directory'); ?>/images/Re
 				<?php endwhile; ?>
 			</div>
 		</div>
-	</div>
 </section>
 
 <section class="program">
