@@ -23,22 +23,22 @@ get_header(); ?>
     <section>
         <div class="container">
             <ul class="nav nav-pills flex-wrap mb-5" id="pills-tab" role="tablist">
-                <li class="d-flex justify-content-center align-items-center w-100 w-md-25  nav-item">
+                <li class="d-flex justify-content-center align-items-center advantages_tab  nav-item">
                     <a class="d-flex justify-content-center align-items-center w-100 font-size-18 nav-link active"
                        id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home"
                        aria-selected="true">Вступление</a>
                 </li>
-                <li class="d-flex justify-content-center align-items-center w-100 w-md-25  nav-item">
+                <li class="d-flex justify-content-center align-items-center advantages_tab  nav-item">
                     <a class="d-flex justify-content-center align-items-center w-100 font-size-18 nav-link"
                        id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
                        aria-controls="pills-profile" aria-selected="false">Почему именно сейчас </a>
                 </li>
-                <li class="d-flex justify-content-center align-items-center w-100 w-md-25  nav-item">
+                <li class="d-flex justify-content-center align-items-center advantages_tab  nav-item">
                     <a class="d-flex justify-content-center align-items-center w-100 font-size-18 nav-link"
                        id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
                        aria-controls="pills-contact" aria-selected="false">Программа лояльности </a>
                 </li>
-                <li class="d-flex justify-content-center align-items-center w-100 w-md-25  nav-item">
+                <li class="d-flex justify-content-center align-items-center advantages_tab  nav-item">
                     <a class="d-flex justify-content-center align-items-center w-100 font-size-18 nav-link"
                        id="launch-dates-tab" data-toggle="pill" href="#launch-dates" role="tab"
                        aria-controls="pills-contact" aria-selected="false">Партнерская программа</a>

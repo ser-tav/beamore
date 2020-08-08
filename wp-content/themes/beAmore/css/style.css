@@ -422,6 +422,20 @@ hr.menu-line {
 	z-index: 9;
 }
 
+.about_tub,.advantages_tab{
+    min-width: 25%;
+}
+
+#registr_modals .modal-dialog {
+    top: 50%!important;
+    transform: translateY(-50%)!important;
+}
+
+.navbar-collapse {
+    z-index: 9;
+
+}
+
 @media (min-width: 576px){
     .modal-dialog {
          max-width: 650px;
@@ -430,6 +444,9 @@ hr.menu-line {
 @media (max-width: 992px) {
     .front_page .items .max-w-20{
         max-width: 33%;
+    }
+    .about_tub,.advantages_tab{
+        width: 100%;
     }
 }
 
