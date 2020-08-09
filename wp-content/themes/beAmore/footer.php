@@ -1,6 +1,6 @@
 <footer id="footer">
     <div class="container d-flex flex-wrap py-90">
-        <div class="col-12 pb-5 col-sm-4 text-white d-flex justify-content-start">
+        <div class="col-12 pb-5 col-sm-4 text-white d-flex justify-content-start justify-content-sm-start">
             <div>
                 <div class="font-size-20 pb-2">Разделы</div>
                 <div>
@@ -8,19 +8,19 @@
                         wp_nav_menu(array(
 						'theme_location' => 'footer-menu',
 						'container'      => 'ul',
-						'menu_class' => 'footer_menu mx-auto '
+						'menu_class' => 'footer_menu mx-auto p-0 '
                         ));
 					?>
 				</div>
 			</div>
 		</div>
-        <div class="col-12 pb-5 col-sm-4 text-white d-flex justify-content-center">
+        <div class="col-12 pb-5 col-sm-4 text-white d-flex justify-content-center justify-content-sm-start">
             <div>
                 <div class="font-size-20 pb-2">Информация</div>
                 <a class="font-size-16 text-white" href="#">Политика конфиденциальности</a>
 			</div>
 		</div>
-        <div class="col-12 pb-5 col-sm-4 text-white d-flex justify-content-end">
+        <div class="col-12 pb-5 col-sm-4 text-white d-flex justify-content-end justify-content-sm-start">
             <div>
                 <div class="font-size-20 pb-2">Контакты</div>
                 <div class="pb-2">

@@ -24,21 +24,33 @@ jQuery(document).ready(function ($) {
         pauseOnFocus: true,
         responsive: [
             {
-                breakpoint: 992,
+                breakpoint: 1025,
                 settings: {
-                    slidesToShow: 5,
+                    slidesToShow: 3,
                 }
             },
             {
-                breakpoint: 768,
+                breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 5,
+                    dots: true,
+                    arrows: false,
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2,
+                    arrows: false,
+                    dots: true,
                 }
             },
             {
                 breakpoint: 460,
                 settings: {
                     slidesToShow: 1,
+                    arrows: false,
+                    dots: true,
                 }
             }
         ]

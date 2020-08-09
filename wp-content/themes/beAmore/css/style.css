@@ -9,6 +9,12 @@ body{
     width: 100%;
     margin: 0 auto;
 }
+.bg_container{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .container{
     max-width: 1170px;
     width: 100%;
@@ -84,6 +90,9 @@ img {
 .font-size-13{
     font-size: 13px;
 }
+.font-size-15{
+    font-size: 15px;
+}
 .font-size-16{
     font-size: 16px;
 }
@@ -149,7 +158,7 @@ img {
 .top_menu li a{
     color: #000000;
 }
-.top_menu_2 li{
+ li{
     padding: 0 12px;
     font-size: 16px;
     list-style: none;
@@ -197,13 +206,27 @@ img {
     color: #000000;
 }
 
-.front_page .main_blok,
+.home .main_blok,
 .project_main_blok,
 .advantages_blok{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 804px;
+    height: 100%;
+}
+.project_description{
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 960px;
+    height: 100%;
+}
+.about_the_event{
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 33%;
+    min-height: 530px;
     height: 100%;
 }
 .project_main_blok,
@@ -235,6 +258,7 @@ img {
 .front_speakers_slider{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .broadcast_program_slider .slick-track,
@@ -437,9 +461,13 @@ img {
     .modal-dialog {
          max-width: 650px;
     }
-    }
+
+}
 @media (max-width: 992px) {
-    .front_page .items .max-w-20{
+    .project_description,.about_the_event{
+        background-image: unset!important;
+    }
+    .home .items .max-w-20{
         max-width: 33%;
     }
     .about_tub,.advantages_tab{
@@ -453,16 +481,23 @@ img {
     header .navbar-nav{
         background-color: #ffffff;
     }
+
     hr.menu-line {
         margin: 0;
         opacity: 1;
         border-top: 1px solid #c4c4c4;
         width: 100%;
     }
+    .slick-arrow{
+        display: none!important;
+    }
 }
 
-@media (max-width: 992px) {
-    .front_page .items{
-        min-height: 605px;
+@media (min-width: 992px) {
+    .yellow_line{
+        border-bottom: 1px solid #F5C974;
+        width: 100%;
+        top: 29%;
     }
+
 }
