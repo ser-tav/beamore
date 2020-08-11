@@ -457,6 +457,15 @@ img {
     z-index: 9;
 
 }
+
+form.wpcf7-form p {
+    margin-bottom: 0!important;
+}
+
+.broadcast_program_partners .col-md-4 div {
+    min-height: 80px;
+}
+
 @media (min-width: 576px){
     .modal-dialog {
          max-width: 650px;
