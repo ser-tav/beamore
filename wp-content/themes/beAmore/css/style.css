@@ -1,8 +1,13 @@
+html {
+	padding: 0;
+	margin: 0;
+}
 *{
     outline: none!important;
 }
 body{
     font-family: 'Roboto';
+	overflow-x: hidden;
 }
 .main_container{
     max-width: 1510px;
@@ -123,6 +128,9 @@ img {
 .font-size-40{
     font-size: 40px;
 }
+.font-size-56{
+    font-size: 56px;
+}
 
 .bar1, .bar2, .bar3 {
     width: 20px;
@@ -240,6 +248,7 @@ img {
     border-radius: 60px;
     background-color: #F9D862;
     color: #000000;
+    align-items: center;
 }
 .main_blok_partners{
     background: rgba(255, 255, 255, 0.8);
@@ -351,10 +360,11 @@ img {
 
 .about_the_project_page #pills-tab li a,
 .advantages_page #pills-tab li a{
-    color: #000000 ;
+    color: #000000;
     border-right: 1px solid #C4C4C4;
     height: 40px;
     border-radius: unset;
+    text-align: center;
 }
  .slick-dots{
     width: 100%;
@@ -466,10 +476,52 @@ form.wpcf7-form p {
     min-height: 80px;
 }
 
+.home iframe {
+    max-width: 547px;
+    height: 307px;
+}
+
+.main_blok_partners .text-side {
+    min-height: 70px;
+}
+
+.about_tub {
+    padding: 0!important;
+    max-width: 25%;
+}
+
+.page-template-about-the-project p {
+    line-height: 26px;
+	margin-bottom: 45px;
+}
+
+.tab-pane table {
+    /*border: 1px solid #c4c4c4;
+    border-left: none;*/
+    font-size: 14px;
+}
+
+.tab-pane table td {
+    border: 1px solid #e2dddd;
+    height: 44px!important;
+}
+
 @media (min-width: 576px){
     .modal-dialog {
-         max-width: 650px;
+		max-width: 650px;
     }
+	
+	.main_blok_title {
+		font-size: 25px;
+	}
+
+	.main_blok_time {
+		font-size: 22px;
+	}
+
+	.main_blok_desc {
+		font-size: 23px;
+	}
 
 }
 @media (max-width: 992px) {
@@ -481,6 +533,9 @@ form.wpcf7-form p {
     }
     .about_tub,.advantages_tab{
         width: 100%;
+        margin: 7px 0;
+        text-decoration: underline;
+        max-width: unset;
     }
     .top_menu_2 li{
         width: 100%;
